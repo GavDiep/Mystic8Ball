@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Magic-8-ball</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="txtBackground">
+      <h1 class="center">Magic 8 Ball</h1>
+      <hr color="black" />
+      <p class="center">
+        <b>
+          This is a magic Eight Ball, ask a yes/no question and it will answer.
+        </b>
+      </p>
+      <p class="center">Question:</p>
+      <p class="center">
+        <input id="question-Input" type="text" placeholder="Ask a question" />
+      </p>
+
+      <p id="eightBallShake"></p>
+
+      <p id="answerSent">Answer: <span id="output-answer">----</span></p>
+
+      <p class="center">
+        <button id="shakeBtn">Shake the ball</button>
+      </p>
+    </div>
+  </body>
+</html>
